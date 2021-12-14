@@ -25,4 +25,8 @@ const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
   console.log("Server started.......");
+  console.log("##### Path #####");
+  console.log("## GET : /files ##");
+  console.log("## GET : /files/:name ##");
+  console.log("## POST : /upload ##");
 });
