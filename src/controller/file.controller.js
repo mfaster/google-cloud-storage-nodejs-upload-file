@@ -9,6 +9,9 @@ const upload = async (req, res) => {
   try {
     await processFile(req, res);
 
+    console.log("file", req.file)
+    console.log("files", req.files)
+
     if (!req.file) {
       return res.status(400).send({ message: "Please upload a file!" });
       // return res.status(400).json({ message: "Please upload a file!", addtionalInfoBody: req.body });

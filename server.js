@@ -49,7 +49,7 @@ app.use(function (req, res, next) {
 const initRoutes = require("./src/routes");
 
 
-
+app.use(express.json())
 app.use(express.urlencoded({ extended: true }));
 initRoutes(app);
 
