@@ -6,7 +6,7 @@ const multer = require('multer')
 
 const upload = multer({
   storage: multer.memoryStorage(),
-  limits: { fileSize: maxSize },
+  limits: { fileSize: 2 * 1024 * 1024 },
 })
 
 let routes = (app) => {
