@@ -10,7 +10,8 @@ const upload = async (req, res) => {
     await processFile(req, res);
 
     if (!req.file) {
-      return res.status(400).send({ message: "Please upload a file!" });
+      // return res.status(400).send({ message: "Please upload a file!", addtionalInfoBody: req.body });
+      return res.status(400).json({ message: "Please upload a file!", addtionalInfoBody: req.body });
     }
 
     const blob = bucket.file(req.file.originalname);
@@ -88,7 +89,7 @@ const download = async (req, res) => {
   try {
     const [metaData] = await bucket.file(req.params.name).getMetadata();
     res.redirect(metaData.mediaLink);
-    
+
   } catch (err) {
     res.status(500).send({
       message: "Could not download the file. " + err,
