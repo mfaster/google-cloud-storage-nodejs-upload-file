@@ -10,8 +10,8 @@ const upload = async (req, res) => {
     await processFile(req, res);
 
     if (!req.file) {
-      // return res.status(400).send({ message: "Please upload a file!", addtionalInfoBody: req.body });
-      return res.status(400).json({ message: "Please upload a file!", addtionalInfoBody: req.body });
+      return res.status(400).send({ message: "Please upload a file!" });
+      // return res.status(400).json({ message: "Please upload a file!", addtionalInfoBody: req.body });
     }
 
     const blob = bucket.file(req.file.originalname);
