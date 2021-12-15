@@ -40,7 +40,9 @@ const upload = async (req, res) => {
       res.status(200).send({
         message: "Uploaded the file successfully: " + req.file.originalname,
         url: publicUrl,
+        // console.log();
       });
+      console.log("Uploaded the file successfully: " + req.file.originalname);
     });
 
     blobStream.end(req.file.buffer);
