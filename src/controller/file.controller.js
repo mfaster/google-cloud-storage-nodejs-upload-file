@@ -1,4 +1,4 @@
-const processFile = require("../middleware/upload");
+// const processFile = require("../middleware/upload");
 const { format } = require("util");
 const { Storage } = require("@google-cloud/storage");
 
@@ -7,15 +7,15 @@ const bucket = storage.bucket("storage.adonwebthailand.com");
 
 const upload = async (req, res) => {
   try {
-    await processFile(req, res);
+    // await processFile(req, res);
 
-    console.log("file", req.file)
-    console.log("files", req.files)
-    console.log("body", req.body)
+    console.log("request is()", req.is())
+    console.log("req file", req.file)
+    console.log("req files", req.files)
+
 
     if (!req.file) {
       return res.status(400).send({ message: "Please upload a file!" });
-      // return res.status(400).json({ message: "Please upload a file!", addtionalInfoBody: req.body });
     }
 
     const blob = bucket.file(req.file.originalname);
@@ -48,7 +48,6 @@ const upload = async (req, res) => {
         // console.log();
       });
       console.log("Uploaded the file successfully: " + req.file.originalname);
-      console.log("URL : " + publicUrl);
     });
 
     blobStream.end(req.file.buffer);
