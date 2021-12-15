@@ -2,19 +2,20 @@ const cors = require("cors");
 const express = require("express");
 const app = express();
 
-// let corsOptions = {
-//   origin: "gcloud.adonwebthailand.com",
-// };
+let corsOptions = {
+  origin: "adonwebthailand.com",
+};
 
-// app.use(cors(corsOptions));
+app.use(cors(corsOptions));
 
-app.use(function(req, res, next) {
-  res.setHeader('Access-Control-Allow-Origin', '*'); //หรือใส่แค่เฉพาะ domain ที่ต้องการได้
-  res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-  res.setHeader('Access-Control-Allow-Headers', 'Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers, multipart/form-data'); //เพิ่ม multipart
-  res.setHeader('Access-Control-Allow-Credentials', true);
-  next();
-});
+// app.use(function(req, res, next) {
+//   res.setHeader('Access-Control-Allow-Origin', '*'); //หรือใส่แค่เฉพาะ domain ที่ต้องการได้
+//   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
+//   res.setHeader('Access-Control-Allow-Headers', 'Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers, multipart/form-data'); //เพิ่ม multipart
+//   res.setHeader('Access-Control-Allow-Credentials', true);
+//   next();
+// });
+
 // app.use(cors());
 // app.use((req, res, next) => {
 //     res.header('Access-Control-Allow-Origin', '*');
