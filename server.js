@@ -2,11 +2,11 @@ const cors = require("cors");
 const express = require("express");
 const app = express();
 
-let corsOptions = {
-  origin: "http://localhost:8081",
-};
+// let corsOptions = {
+//   origin: "http://localhost:8081",
+// };
 
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
 
 const initRoutes = require("./src/routes");
 
