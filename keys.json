@@ -1,12 +1,12 @@
 {
   "type": "service_account",
-  "project_id": "ad-on-web-thailand",
-  "private_key_id": "913b4333c200d6eb49c273d760a7e9d568bd2fee",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDplJzz5TibBh0d\ngQh/AGsKcFDU5oPNElOyRkQ6qG4wMSGWVSaqdhNOVzQqDVVZQQw0HBggFmE/DOlu\nUXYIjKShS14tcu5ebHN9qfC23FaGZGZSwpi9RQOVHLh8BcRG2UV0Z4LYvDOyBEwC\ntKUlUWYPaOEUl6kbmmQtaVZz/BHvcmrnsSssmieGsopCxiQptMGzyaEfP9yn588C\noOjsR9WM218s1KO4Hj2YnEHcbEehIZRcgZhrNEkGkkwHHi7kdaZxZDks3gwEWK+5\nCp/cMzhpuUnqkmFtgGp7KmbisOog06wDrFS2+HV0XN1V1+8MCNP5zty0HFC45nv/\ns22BoePTAgMBAAECggEAL25aILyfLfuj1eXpz8BJ/CiqgVD92pqqHD1ghXjGR0ry\nwxAvddXcPcA/e3qRpjorPDmoPHvO63q3vAsWqM3GcGpZiWkZNltXaGEl3DwJ5ehl\nTtDtKyHkhFb8r1KMdMaR7/1E+LXe2Xs95B7Cmj1ZOC/X5NKXKF/Fj+MgBxVcnv59\nnbLHYWBWuskor5X89Pe1L5Ajnz7jqvdEwNZifvSy5yVcUh7muuiOpXWSuvimkeDv\n0nDizwqrGTUvv3+kLj5wRZuTsioyiXkjryAcbBjuQ3vUfPDfJ1JwZfitK5dPg0lE\n3sLu3YAYmRcp7WbMyG53psB/wPG01BvrpeVKArLo4QKBgQD3FJb5pr2BVz68MR1V\nh2/gaIQ+k00+dPOCxjg7VoTK61FFl/d7zGkCryqZFOqTVcdlzdbHxWAUnh1dP1PX\nA1ZXrKLFvxALPfkKr5rlYeYUECk235yydFF2K36GeOKy0ghfVlZn5Btci88IJLE6\nftljqsfo1lfTENbbVMifLacLDwKBgQDyA0NWwwofUMWvlX5mPOsK2+eGuSTOyxjt\n+Y8p+zFFCUIC+COzATCLg0FVW/Khs5+1YQZHr1eCvdyPlbXOCFCBPpB8786umkon\niFMc9wFN+EM0p0nIq2/m/dteci70ZD9BInOYVBOI61QkW9ejtw73P7ZDyR4tDxPd\nRC0O9oyq/QKBgBlq/tUT+C7UINoPW2svEa1OUzx0vt+L/HkZlzNThTmy15uHNKiB\nsNPb3U/+PNuHWYn5kPzgKzAzy+WJ3EAkUb+XPO+G5kmhyHr28cJjPd4Wg4bnniEl\nojO76bo/uWKYBNB5+02Yw8/TeirmS20vG4ILUaF8W3CVLOVHZZQqiCK1AoGAP76Y\nSAwLaIAv8bWgm3FEP5H4g8XUahuYr2XiTZ56NcLgfkO5s3aGwNiLpt4XJHxZfr7V\nlqAanrc/lxpJzsDl44UFLcNEXz0Idy0zJxfwYgcYPJAroQ125hLLay8MKxcUiiV2\n6RKMKq5BdWozfE3FRV6ktWoN5rRn+QnyDFTobEkCgYADcejNPDvztnNEf/6TtY08\nTwyWGssJX5+1mOnSKHuanxV9x1XP9IGwqx4/K1mmOTlpOT41UX2LpO2C+KPl8fHd\nnWpjZZfQzSYC3kRHTpT0x+s+0jMowlTvpgkHiyaIHwK18qdu7M8m7J6cEAnmqm8A\n4Lqp8fZE8LmnbGnkJF4scw==\n-----END PRIVATE KEY-----\n",
-  "client_email": "qcloudupload@ad-on-web-thailand.iam.gserviceaccount.com",
-  "client_id": "107032132539625740592",
+  "project_id": "",
+  "private_key_id": "",
+  "private_key":"",
+  "client_email": "",
+  "client_id": "",
   "auth_uri": "https://accounts.google.com/o/oauth2/auth",
   "token_uri": "https://oauth2.googleapis.com/token",
   "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/qcloudupload%40ad-on-web-thailand.iam.gserviceaccount.com"
+  "client_x509_cert_url": ""
 }
